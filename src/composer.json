@@ -1,0 +1,22 @@
+{
+  "name": "rutgerkirkels/SMSclient",
+  "description": "Use this SMS client to send text messages through various providers, like VoipCheap",
+  "license": "MIT",
+  "keywords": ["SMS","client", "VoipCheap"],
+  "authors": [
+    {
+      "name": "Rutger Kirkels",
+      "email": "rutger@kirkels.nl",
+      "homepage": "http://rutger.kirkels.nl"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "RutgerKirkels\\SMSclient\\": "src"
+    }
+  }
+}
