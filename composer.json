@@ -1,5 +1,5 @@
 {
-  "name": "rutgerkirkels/SMSclient",
+  "name": "rutgerkirkels/smsclient",
   "description": "Use this SMS client to send text messages through various providers, like VoipCheap",
   "license": "MIT",
   "keywords": ["SMS","client", "VoipCheap"],
