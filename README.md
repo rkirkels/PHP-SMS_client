@@ -5,7 +5,7 @@
 [![Latest Stable Version](http://img.shields.io/packagist/v/rutgerkirkels/smsclient.svg)](https://packagist.org/packages/rutgerkirkels/smsclient)
 [![Total Downloads](http://img.shields.io/packagist/dt/rutgerkirkels/smsclient.svg)](https://packagist.org/packages/endroid/twitter)
 [![Monthly Downloads](http://img.shields.io/packagist/dm/rutgrkirkels/smsclient.svg)](https://packagist.org/packages/rutgerkirkels/smsclient)
-[![License](http://img.shields.io/packagist/l/rutgerkirkels/smsclient.svg)](https://packagist.org/packages/rutgerkirkels/smsclient)**
+[![License](http://img.shields.io/packagist/l/rutgerkirkels/smsclient.svg)](https://packagist.org/packages/rutgerkirkels/smsclient)
 
 ## Installation
 

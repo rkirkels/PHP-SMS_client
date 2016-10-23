@@ -11,6 +11,8 @@ class Connector
     public $url = null;
     public $getVars = array();
 
+    private $response = null;
+
     public function __construct($url)
     {
         $this->url = $url;
@@ -30,6 +32,19 @@ class Connector
         $ch = curl_init($url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         $response = curl_exec($ch);
-        return $response;
+        $info = curl_getinfo($ch);
+        $this->response = new Response();
+        $this->response->setBody($response);
+        $this->response->setHttpCode($info['http_code']);
+        return true;
     }
+
+    /**
+     * @return null
+     */
+    public function getResponse()
+    {
+        return $this->response;
+    }
+
 }

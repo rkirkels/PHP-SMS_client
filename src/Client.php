@@ -52,9 +52,22 @@ class Client
         $this->message = $message;
         return true;
     }
+
     public function send() {
         $this->connection->recipient = $this->recipient;
         $this->connection->message = $this->message;
         $this->connection->send();
+        if ($this->connection->sentSuccesfully()) {
+            return true;
+        }
+        return false;
+    }
+
+    public function sentSuccesfully() {
+        return $this->connection->sentSuccesfully();
+    }
+
+    public function numberOfParts() {
+        return $this->connection->numberOfParts();
     }
 }
